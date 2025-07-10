@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Configuration Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .status-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .success {
+            color: #22c55e;
+            font-weight: bold;
+        }
+        .info {
+            color: #3b82f6;
+        }
+        code {
+            background-color: #e5e7eb;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="status-box">
+        <h1 class="success">✓ DNS Test Page Working!</h1>
+        <p>If you can see this page at <code>https://www.marctapalla.com/dns-test.html</code>, your DNS is configured correctly!</p>
+        
+        <h2>Current Status:</h2>
+        <ul>
+            <li class="info">Domain: <code>www.marctapalla.com</code></li>
+            <li class="info">Repository: <code>ahilario/marctapalla.github.io</code></li>
+            <li class="info">Accessed at: <script>document.write(new Date().toLocaleString());</script></li>
+            <li class="info">Current URL: <script>document.write(window.location.href);</script></li>
+        </ul>
+        
+        <h2>Next Steps:</h2>
+        <ol>
+            <li>✓ DNS is properly configured</li>
+            <li>✓ GitHub Pages is serving the site</li>
+            <li>Visit <a href="/">the homepage</a> to see your image</li>
+        </ol>
+        
+        <p><a href="/">← Go to Homepage</a></p>
+    </div>
+</body>
+</html>
